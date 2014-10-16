@@ -63,8 +63,36 @@ class ViewController: UIViewController {
     }
 
     @IBAction func nextBarButtonItemPressed(sender: UIBarButtonItem) {
-        println(myTigers)
-    }
+        
+        let randomIndex = Int(arc4random_uniform(UInt32(myTigers.count)))
+        let tiger = myTigers[randomIndex]
+        var animationsList:[UIViewAnimationOptions] = []
+        
+// add animations to the pot - this array will be parallel to the Tigers array
+        animationsList.append(UIViewAnimationOptions.TransitionCrossDissolve)
+        animationsList.append(UIViewAnimationOptions.TransitionCurlDown)
+        animationsList.append(UIViewAnimationOptions.TransitionFlipFromLeft)
+        animationsList.append(UIViewAnimationOptions.TransitionFlipFromTop)
+        
+        
+//        myImageView.image = tiger.image
+//        nameLabel.text = tiger.name
+//        ageLabel.text = "\(tiger.age)"
+//        breedLabel.text = tiger.breed
+        
+        
+        UIView.transitionWithView(self.view, duration: 2, options: animationsList[randomIndex], animations: {
+            
+            self.myImageView.image = tiger.image
+            self.nameLabel.text = tiger.name
+            self.ageLabel.text = "\(tiger.age)"
+            self.breedLabel.text = tiger.breed
+            
+            }, completion: {
+                (finished: Bool) -> () in
+        })
+        
+     }
 
 }
 
