@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C0DBF4C1A054A6C00C19E92 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8C0DBF4B1A054A6C00C19E92 /* README.md */; };
 		8CA685A019F8487C00B0B398 /* Lion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA6859F19F8487C00B0B398 /* Lion.swift */; };
 		8CCCCA4419EDAC48007F867D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCCCA4319EDAC48007F867D /* AppDelegate.swift */; };
 		8CCCCA4619EDAC48007F867D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCCCA4519EDAC48007F867D /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C0DBF4B1A054A6C00C19E92 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8CA6859F19F8487C00B0B398 /* Lion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lion.swift; sourceTree = "<group>"; };
 		8CCCCA3E19EDAC48007F867D /* LionsAndTigers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LionsAndTigers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CCCCA4219EDAC48007F867D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				8CCCCA4319EDAC48007F867D /* AppDelegate.swift */,
 				8CCCCA4519EDAC48007F867D /* ViewController.swift */,
+				8C0DBF4B1A054A6C00C19E92 /* README.md */,
 				8CCCCA6319EDB9E8007F867D /* Tiger.swift */,
 				8CA6859F19F8487C00B0B398 /* Lion.swift */,
 				8CDFE98D19FAF4330056F41D /* LionCub.swift */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C0DBF4C1A054A6C00C19E92 /* README.md in Sources */,
 				8CCCCA4619EDAC48007F867D /* ViewController.swift in Sources */,
 				8CCCCA6419EDB9E8007F867D /* Tiger.swift in Sources */,
 				8CCCCA4419EDAC48007F867D /* AppDelegate.swift in Sources */,
